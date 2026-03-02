@@ -9,10 +9,13 @@
 :root {
   --cor-primaria: #ede3d5;
   --cor-texto: #2e1a16;
+  --cor-background-red-index: #87353a;
   --cor-background: #fff;
   --cor-eventos: #dfcab1;
   --cor-back-footer: #822b31;
 }
+
+
 
 .container {
   max-width: 1200px;
@@ -22,12 +25,8 @@
 
 .header-top,
 .main-header {
-  background: rgba(237, 227, 213, 0.55);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  position: sticky;
-  top: 0;
-  z-index: 999;
+  background: rgba(228, 210, 185, 0.55);
+  backdrop-filter: blur(8px);
 }
 
 .header-top {
@@ -52,18 +51,11 @@
 .header-top .divisor {
   opacity: 0.4;
   margin: 0 5px;
-  margin-bottom: 9px;
 }
 
 /* header principal */
 .main-header {
   padding: 1px 0;
-}
-
-.main-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .logo-area {
@@ -73,28 +65,7 @@
   color: #853439;
 }
 
-.img-header-logo {
-  height: 80px;
-  width: auto;
-  object-fit: cover;
-  transform: scale(1.6);
-}
 
-/* nav */
-.main-nav {
-  display: flex;
-  gap: 25px;
-}
-
-.main-nav a {
-  color: #4a3d36;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.main-nav a:hover {
-  color: #853439;
-}
 
 /* conteudp principal */
 
@@ -659,7 +630,7 @@
 
 .offers-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .offers-card img {
@@ -696,7 +667,6 @@
   font-weight: 700;
   font-size: 22px;
 }
-
 
 /* ===================== SESSAO CONTATO ============================== */
 
@@ -941,7 +911,9 @@
   padding: 25px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   border: 1px solid #e0d4c8;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
   text-align: left;
 }
 
@@ -1406,7 +1378,7 @@
   background: #fff;
   padding: 32px;
   border-radius: 14px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   margin: 0 auto;
 }
 
@@ -1509,12 +1481,10 @@
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
-
 }
 
 .destaque-vermelho:hover {
-  background-color: #ffffff; 
+  background-color: #ffffff;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
-
 }

@@ -27,8 +27,7 @@
     />
   </head>
 
-  <!-- TOPO FIXO header-top  navbar juntos -->
-  <header id="topo-fixo" class="sticky-top">
+  <header>
     <!-- HEADER TOP -->
     <div class="header-top">
       <div class="container">
@@ -37,64 +36,61 @@
         <i class="fa-solid fa-clock"></i> Seg-Sab: 7h-19h | Dom: 7h-13h
       </div>
     </div>
-
-    <!-- NAVBAR BOOTSTRAP -->
-    <nav class="navbar navbar-expand-lg main-header">
-      <div class="container">
-        <a class="navbar-brand logo-area" href="/index.html">
-          <img
-            class="img-header-logo"
-            src="/src/public/logo-c-f.png"
-            alt="Logo Açougue Corte Fino"
-          />
-          <h1>Corte Fino</h1>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#menuPrincipal"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="menuPrincipal">
-          <ul class="nav nav-pills ms-auto">
-            <li class="nav-item">
-              <a href="/index.html" class="nav-link active" aria-current="page"
-                >Início</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="/src/Interface/products.html" class="nav-link"
-                >Produtos</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="/src/Interface/offers.html" class="nav-link">Ofertas</a>
-            </li>
-            <li class="nav-item">
-              <a href="/src/Interface/about.html" class="nav-link">Sobre Nós</a>
-            </li>
-            <li class="nav-item">
-              <a href="/src/Interface/services.html" class="nav-link"
-                >Serviços</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="/src/Interface/contact.html" class="nav-link">Contato</a>
-            </li>
-            <li class="nav-item">
-              <a
-                href="/src/Interface/Join.html"
-                class="nav-link destaque-vermelho"
-                >Entrar</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
   </header>
+
+  <!-- NAVBAR BOOTSTRAP -->
+  <nav class="navbar navbar-expand-lg main-header sticky-top">
+    <div class="container">
+      <a class="navbar-brand logo-area" href="/index.html">
+        <img
+          src="/src/public/logo-c-f.png"
+          class="w-auto object-fit-cover"
+          style="height: 80px; transform: scale(1.6)"
+          alt="Logo"
+        />
+        <span class="fs-2">Corte Fino</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuPrincipal"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="nav nav-pills ms-auto">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link active" aria-current="page"
+              >Início</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/src/Interface/products.html" class="nav-link">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a href="/src/Interface/offers.html" class="nav-link">Ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a href="/src/Interface/about.html" class="nav-link">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a href="/src/Interface/services.html" class="nav-link">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a href="/src/Interface/contact.html" class="nav-link">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="/src/Interface/Join.html"
+              class="nav-link destaque-vermelho"
+              >Entrar</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <body>
     <!-- SEÇÃO HERO - Conteúdo principal -->
